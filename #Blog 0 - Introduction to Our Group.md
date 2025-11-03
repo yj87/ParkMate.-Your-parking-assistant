@@ -27,6 +27,7 @@
 | 4. | **Ung Yii Jia** | Member |
 | 5. | **Yeoh Huey Ting** | Member |
 
+#### 👩‍💻 Member 1: Wong Ya Jing
 
 #### 👩‍💻 Member 4: Ung Yii Jia
 
