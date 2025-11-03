@@ -44,6 +44,15 @@ I like to do tasks while chatting with friends. It makes me feel **happy and les
 
 <br clear="left"/>
 
+#### 👩‍💻 Member 3: Chan Siew Ching
+
+<img src="https://github.com/user-attachments/assets/487c993f-be15-45d1-9483-8b04a88baad2" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
+
+Hi, My name's Chan Siew Ching, but you can just call me Siew Ching. 🥰
+I enjoy studying while sipping my favorite drink because it helps me stay focused and feel relaxed ☕🎧
+
+<br clear="left"/>
+
 #### 👩‍💻 Member 4: Ung Yii Jia
 
 <img src="https://github.com/user-attachments/assets/f2d00cc7-ec23-42a6-8be8-96327c03dce7" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
