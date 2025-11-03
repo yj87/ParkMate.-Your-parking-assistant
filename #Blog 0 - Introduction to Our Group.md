@@ -37,7 +37,7 @@ My hobby are dancing and playing video game. Nice to meet you! 🆒
 
 #### 👩‍💻 Member 2: Chia Thung Thung
 
-<img src="https://github.com/user-attachments/assets/e1ae25bb-811b-49e6-882d-e2d67a17c50e" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
+<img src="https://github.com/user-attachments/assets/e1ae25bb-811b-49e6-882d-e2d67a17c50e" width="120" length="200" align="left" style="margin-right: 15px; border-radius: 10px;" />
 
 Hi! My name is **Chia Thung Thung**, but you can just call me **Thung Thung** 😊  
 I like to do tasks while chatting with friends. It makes me feel **happy and less stressed** 🤪 
