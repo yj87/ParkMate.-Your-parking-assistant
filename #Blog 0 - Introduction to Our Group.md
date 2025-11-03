@@ -53,8 +53,8 @@ I enjoy studying while sipping my favorite drink because it helps me stay focuse
 
 
 <br clear="left"/>
-
-<br /> #### 👩‍💻 Member 4: Ung Yii Jia
+<br /> 
+#### 👩‍💻 Member 4: Ung Yii Jia
 
 <img src="https://github.com/user-attachments/assets/f2d00cc7-ec23-42a6-8be8-96327c03dce7" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
 
