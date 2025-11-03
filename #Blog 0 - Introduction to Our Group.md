@@ -28,7 +28,10 @@
 | 5. | **Yeoh Huey Ting** | Member |
 
 #### 👩‍💻 Member 1: Wong Ya Jing
-<img src = "profile picture wyj.jpg">
+<img src = "profile picture wyj.jpg" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
+
+Hi! My name is **Wong Ya Jing**, you can call be by short as **Jean** 😙
+My hobby are dancing and playing video game. Nice to meet you! 🆒
 
 #### 👩‍💻 Member 4: Ung Yii Jia
 
