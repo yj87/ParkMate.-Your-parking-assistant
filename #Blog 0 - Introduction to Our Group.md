@@ -27,6 +27,15 @@
 | 4. | **Ung Yii Jia** | Member |
 | 5. | **Yeoh Huey Ting** | Member |
 
+### 👩‍💻 Member 5: Yeoh Huey Ting
+
+<img src="https://github.com/user-attachments/assets/ffb0deef-e5da-45b8-9e9c-ed87b151f11c" width="120" align="left" style="margin-right: 15px; border-radius: 10px;" />
+
+Hi! My name is **Yeoh Huey Ting**, but you can just call me **Huey Ting** 😊  
+I like to do tasks while eating because it makes me feel more **inspired** ✨  
+
+<br clear="left"/>
+
 ---
 
 ## 💬 Description of Our Group Name
