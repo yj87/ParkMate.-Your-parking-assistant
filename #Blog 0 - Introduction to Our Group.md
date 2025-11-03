@@ -28,7 +28,7 @@
 | 5. | **Yeoh Huey Ting** | Member |
 
 #### 👩‍💻 Member 1: Wong Ya Jing
-<img src = "profile picture wyj.jpg"
+<img src = "profile picture wyj.jpg">
 
 #### 👩‍💻 Member 4: Ung Yii Jia
 
