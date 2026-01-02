@@ -92,7 +92,7 @@ By using the Think Aloud technique, three representative users—Lone Driver, El
 
 The observations and the derived Hierarchical Task Analyses (HTAs) will highlight common patterns, decision points, and areas of frustration that form a basis to identify user requirements. These will be used later in the process as an input to the design of the proposed ParkMate system, ensuring that it addresses the inefficiencies of the current manual process, accommodates the diverse needs of different user groups, and enhances overall usability, safety, and user satisfaction in parking facilities.
 
-
+---
 
 ### 2.0 Derivation of HTA
 #### 2.1 HTA for Task 1 – Find Available Parking Space
@@ -125,7 +125,7 @@ _HTA (Textual Presentation) – Lone Driver Performs Task 1_
     
     8. Park the car.
 
-Plan 0: do 1-2-3. 
+	Plan 0: do 1-2-3. 
             
             if a green slot is found: do 6-7-8.
             
@@ -133,7 +133,7 @@ Plan 0: do 1-2-3.
             
             if still full after scanning the entire floor: go to the next floor and repeat 2-3-4-5-6-7-8.
 
-Plan 2: do 2.1 and 2.2 in any order repeatedly until a slot is found.
+	Plan 2: do 2.1 and 2.2 in any order repeatedly until a slot is found.
 
 
 _HTA (Diagram Presentation) – Lone Driver Performs Task 1_
@@ -141,42 +141,43 @@ _HTA (Diagram Presentation) – Lone Driver Performs Task 1_
 <img width="1073" height="433" alt="Lone Driver Task 1 " src="https://github.com/user-attachments/assets/010e3498-51a2-42b7-937c-30915f7d03c7" />
 <br> 
 <em>Figure 2.1.1: HTA Diagram of Lone Driver doing Task 1</em>
-	https://drive.google.com/file/d/1f4HuwxozvPEZV9vymoaa-XVWi2qfu-9Z/view?usp=sharing
-</p>
+https://drive.google.com/file/d/1f4HuwxozvPEZV9vymoaa-XVWi2qfu-9Z/view?usp=sharing</p>
+
 
 User Type 2: Elderly Driver
 
 Video on Elderly Driver finding available parking space: https://drive.google.com/file/d/1N2q9ODYTgYUbDfoCNFx5lhSpnsKO-6fj/view?usp=sharing
 
 _HTA (Textual Presentation) – Elderly Driver Performs Task 1_
-    
-   0. Find Available Parking Space
-   
-   1. Drive into the parking building
-   
-   2. Slowly drive to a floor that seems less crowded
-   
-   3. Search for empty parking slots by driving lane-by-lane
-   
-   4. Reduce speed due to slower reaction time and vision limitations
-  
-   5. If no slot is found
-      
-      5.1 drive to another floor and repeat
-   
-   6. Once an empty slot is found 
-    
-      6.1 carefully park into the space
-   
-   7. Lock the car and walk to building entrance
 
-Plan 0: 
 	
-	Do 1 → 2 → 3 → 4 → 5 → 6 → 7  in order.
+	0. Find Available Parking Space
+	
+	1. Drive into the parking building
+	
+	2. Slowly drive to a floor that seems less crowded
+	
+	3. Search for empty parking slots by driving lane-by-lane
+	
+	4. Reduce speed due to slower reaction time and vision limitations
+	
+	5. If no slot is found
+	
+		5.1 drive to another floor and repeat
+	
+	6. Once an empty slot is found 
+		
+		6.1 carefully park into the space
+	
+	7. Lock the car and walk to building entrance
 
-Plan 5:
+	Plan 0: 
 	
-	Do 5.1 repeatedly until an empty slot is found.
+		Do 1 → 2 → 3 → 4 → 5 → 6 → 7  in order.
+
+	Plan 5:
+	
+		Do 5.1 repeatedly until an empty slot is found.
 
 _HTA (Diagram Presentation) – Elderly Driver Performs Task 1_
 <p align="center">
@@ -194,52 +195,50 @@ https://drive.google.com/file/d/1EOxAUZH5Bw9WAdBHkiN0ZbZXoTt4xGL7/view?usp=drive
 
 _HTA (Textual Presentation) – Female Driver Performs Task 1_
    
-    0. Find Available Parking Space
-    
-    1. Drive through the first level.
-    
-    2. Drive through the first lane.
-    
-    3. Look for empty space
-    
-         3.1. Look for green sensor indicate empty lot
-    
-    4. Drive to another lane.
-    
-    5. Found parking lot for disability 
-    
-         5.1. Find another parking lot
-    
-    6. Found people who are leaving the building
-    
-         6.1. Wait for them to remove their car 
-    
-    7. Park into the parking lot
-
-
-Plan 0: Do 1-2-3
 	
-  If found available parking lot, do 7
+	0. Find Available Parking Space
 	
-  If all parking lots are occupied, do 4 and repeat 2-3-4 until 7
+	1. Drive through the first level.
 	
-  If found disabled parking lot, do 5 and repeat 2-3-4 until 7
+	2. Drive through the first lane.
 	
-  If someone is leaving, do 6-7
+	3. Look for empty space
+		
+		3.1. Look for green sensor indicate empty lot
+	
+	4. Drive to another lane.
+	
+	5. Found parking lot for disability 
+	
+	5.1. Find another parking lot
+	
+	6. Found people who are leaving the building	
+		
+		6.1. Wait for them to remove their car 
+	
+	7. Park into the parking lot
 
-Plan 3: 
-
-  Do 3.1 repeatedly until a parking lot is found
-
-
-Plan 5: 
-
-  Do 5.1 repeatedly until a parking lot is found
-
-
-Plan 6: 
-
-  Do 6.1
+	Plan 0: Do 1-2-3
+		
+		If found available parking lot, do 7
+		
+		If all parking lots are occupied, do 4 and repeat 2-3-4 until 7
+		
+		If found disabled parking lot, do 5 and repeat 2-3-4 until 7
+		
+		If someone is leaving, do 6-7
+	
+	Plan 3: 
+		
+		Do 3.1 repeatedly until a parking lot is found
+	
+	Plan 5: 
+		
+		Do 5.1 repeatedly until a parking lot is found
+	
+	Plan 6: 
+	
+		Do 6.1
 
 _HTA (Diagram Presentation) – Female Driver  Performs Task 1_
 <p align="center">
@@ -251,7 +250,7 @@ _HTA (Diagram Presentation) – Female Driver  Performs Task 1_
 
 ### Findings from the HTA for Task 1 – “Find Available Parking Slots”
 
-Information on HTAs and Thinking-Aloud across 3 personas
+_1. Information on HTAs and Thinking-Aloud across 3 personas_
 
 Across all three users, the HTA reveals a common high-level structure: entering the parking area, scanning the environment, navigating through different lanes or floors, and finally 
 identifying and occupying an available slot. 
@@ -263,7 +262,8 @@ Across all videos, the HTAs showed common cognitive patterns:
 
 Thinking-Aloud reveals emotional responses that affect task efficiency. Users frequently expressed frustration, particularly when they could not locate a slot after several attempts. This frustration increased cognitive load and slowed down decision-making. Across the videos, users also misinterpreted visual cues, such as green indicators that corresponded to reserved slots (e.g., disabled parking), which resulted in wasted search time and increased mental effort. This suggests that the current car park environment does not adequately support users with clear, reliable feedback. 
 
-_Differences of 3 personas perform on Task 1_
+_2. Differences of 3 personas perform on Task 1_
+
 | Aspect                  | Lone Driver                                      | Elderly Driver                                             | Female Driver                                           |
 |-------------------------|-------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------|
 | Speed of Navigation      | Fast, moves quickly                             | Slow, cautious driving                                     | Moderate speed                                         |
@@ -276,7 +276,7 @@ _Differences of 3 personas perform on Task 1_
 
 These differences highlight the importance of accommodating diverse user needs. While the lone driver benefits from fast, clear guidance, the elderly driver requires simplified navigation and reduced visual complexity. Meanwhile, the female driver prioritises safety and seeks reliable information on the availability of appropriate parking zones.
 
-_Conclusions from Comparing the HTAs across 3 personas for Task 1_
+_3. Conclusions from Comparing the HTAs across 3 personas for Task 1_
 
 Comparison of the three HTAs indicates several consistent issues in the current manual parking search process. All users depend heavily on visual scanning of lights and aisles, which is time-consuming and cognitively demanding.All users are caught in repetitive loops of scanning, lane switching and floor changes, demonstrating inefficiencies inherent in the environment. 
 
@@ -331,21 +331,21 @@ _HTA (Textual Presentation) – Lone Driver Performs Task 2_
 		
 		6.3 Unlock the car
 
-Plan 0: do 1-2-3.
+	Plan 0: do 1-2-3.
 	
-	If Step 2 fails, do 4-5 repeatedly until the car is found. 
+		If Step 2 fails, do 4-5 repeatedly until the car is found. 
 	
-	then do 6.
+		then do 6.
 
-Plan 1: Do 1.1 then 1.2.
+	Plan 1: Do 1.1 then 1.2.
 
-Plan 2: Do 2.1 then 2.2 then 2.3.
+	Plan 2: Do 2.1 then 2.2 then 2.3.
 
-Plan 3: Do 3.1 then 3.2.
+	Plan 3: Do 3.1 then 3.2.
 
-Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
+	Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
 
-Plan 6: Do 6.1 then 6.2 then 6.3
+	Plan 6: Do 6.1 then 6.2 then 6.3
 
 _HTA (Diagram Presentation) – Lone Driver Performs Task 2_
 <p align="center">
@@ -400,21 +400,21 @@ _HTA (Textual Presentation) – Elderly Driver Performs Task 2_
 		
 		6.3 Unlock the car
 
-Plan 0: do 1-2-3.
+	Plan 0: do 1-2-3.
 	
-	If Step 2 fails, do 4-5 repeatedly until the car is found. 
+		If Step 2 fails, do 4-5 repeatedly until the car is found. 
 	
-	then do 6.
+		then do 6.
 
-Plan 1: do 1.1 then 1.2.
+	Plan 1: do 1.1 then 1.2.
 
-Plan 2: do 2.1 then 2.2 then 2.3.
+	Plan 2: do 2.1 then 2.2 then 2.3.
 
-Plan 3: do 3.1 then 3.2.
+	Plan 3: do 3.1 then 3.2.
 
-Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
+	Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
 
-Plan 6: Do 6.1 then 6.2 then 6.3
+	Plan 6: Do 6.1 then 6.2 then 6.3
 
 _HTA (Diagram Presentation) – Elderly Driver Performs Task 2_
 <p align="center">
@@ -470,21 +470,21 @@ _HTA (Textual Presentation) – Female Driver Performs Task 2_
 		
 		6.3 Unlock the car
 
-Plan 0: do 1-2-3.
+	Plan 0: do 1-2-3.
+		
+		If Step 2 fails, do 4-5 repeatedly until the car is found. 
 	
-	If Step 2 fails, do 4-5 repeatedly until the car is found. 
+		then do 6.
+
+	Plan 1: Do 1.1 then 1.2.
+
+	Plan 2: Do 2.1 then 2.2 then 2.3.
+
+	Plan 3: Do 3.1 then 3.2.
 	
-	then do 6.
+	Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
 
-Plan 1: Do 1.1 then 1.2.
-
-Plan 2: Do 2.1 then 2.2 then 2.3.
-
-Plan 3: Do 3.1 then 3.2.
-
-Plan 5: Do 5.1 then 5.2 then 5.3 repeatedly until the car is located.
-
-Plan 6: Do 6.1 then 6.2 then 6.3
+	Plan 6: Do 6.1 then 6.2 then 6.3
 
 _HTA (Diagram Presentation) – Female Driver Performs Task 2_
 <p align="center">
@@ -495,13 +495,14 @@ https://app.diagrams.net/#G1qFrA9UIbTLxcWmda8nuJRQmjPM3UqJeo#%7B%22pageId%22%3A%
 </p>
       
 ### Findings from the HTAs for Task 2 - “Find Parked Car”
-Information on HTA and Thinking Aloud across the three personas
+_1. Information on HTA and Thinking Aloud across the three personas_
 
 Across all three users, the HTA for Task 2 shows a similar high-level structure: attempting to recall the parking location, trying to use digital tools (Google Maps or memory), navigating through different floors or lanes, and eventually relying on repeated searching until the car is found. Thinking-aloud observations reveal several common cognitive patterns. All users spent significant time trying to remember where they parked, followed by scanning the environment for familiar landmarks such as lift lobbies, wall colours, or pillar numbers. Users repeatedly walked through aisles or floors, indicating a looping search process when their initial assumption was incorrect. When memory failed or the environment looked too similar, cognitive load increased, which led to slower movement, hesitation, and uncertainty.
 
 Thinking-aloud also shows emotional reactions that affect task performance. All users expressed frustration when their mental image of the parking location did not match reality. This frustration increased cognitive load and led to inefficient or repetitive walking patterns. Users occasionally misinterpreted cues, such as assuming they were on the correct floor because the pillars looked similar, which resulted in wasted time and unnecessary physical effort. These findings indicate that the current indoor parking environment does not provide adequate support or reliable feedback for users to locate their vehicles easily.
 
-Differences Across the three personas
+_2. Differences Across the three personas_
+
 | Aspect                  | Lone Driver                                      | Elderly Driver                                             | Female Driver                                           |
 |-------------------------|-------------------------------------------------|-----------------------------------------------------------|--------------------------------------------------------|
 | Speed of Navigation      | Fast walking pace                               | Slow, careful walking                                      | Moderate pace                                          |
@@ -516,7 +517,7 @@ Differences Across the three personas
 
 These differences show that while the lone driver prioritises speed, the elderly driver requires stronger support for memory and navigation. The female driver places more emphasis on safety and clarity, preferring cues that make her feel secure while searching.
 
-_Conclusions from Comparing HTAs Across the 3 Personas for Task 2_
+_3. Conclusions from Comparing HTAs Across the 3 Personas for Task 2_
 
 Comparing the three HTAs reveals several consistent challenges in the current car-finding process. All users rely heavily on memory and environmental scanning because digital tools like Google Maps do not work accurately indoors. This results in repeated loops of searching, moving between floors, and checking aisles, which makes the task time-consuming and cognitively demanding. The indoor environment, with identical layouts and poor differentiation, contributes significantly to user confusion and inefficiency.
 Furthermore, user differences show that the current system does not effectively support individuals with varied cognitive and physical abilities. Younger drivers can complete the task despite frustration, but elderly drivers struggle the most due to weak memory, slow movement, and difficulty interpreting cues. The female driver also demonstrates a strong need for safety and reassurance during the search. These findings highlight the need for improved indoor navigation, clearer floor identification, automatic parking location tracking, and personalised guidance that caters to different user needs.
@@ -550,13 +551,13 @@ _HTA (Textual Presentation) – Lone Driver Performs Task 3_
 		
 		3.2 Move to another floor 
 
-Plan 0. Do 1-2-3
+	Plan 0. Do 1-2-3
 
-Plan 1. Do 1.1 then 1.2
+	Plan 1. Do 1.1 then 1.2
 
-Plan 2. Do 2.1 then 2.2
+	Plan 2. Do 2.1 then 2.2
 
-Plan 3. Do 3.1 or 3.2 depending on user’s choice
+	Plan 3. Do 3.1 or 3.2 depending on user’s choice
 
 _HTA (Diagram Presentation) – Lone Driver Performs Task 3_
 <p align="center">
@@ -586,13 +587,13 @@ _HTA (Textual Presentation) – Elderly Driver Performs Task 3_
 	
 	5. Lock car and walk toward entrance
 
-Plan 0:
+	Plan 0:
 
-Do 1 → 2 → 3 → 4 → 5 in order.
+		Do 1 → 2 → 3 → 4 → 5 in order.
 
-Plan 3:
+	Plan 3:
 
-Do 3.1 repeatedly until an empty slot is found.
+		Do 3.1 repeatedly until an empty slot is found.
 
 _HTA (Diagram Presentation) – Elderly Driver Performs Task 3_
 <p align="center">
@@ -630,23 +631,23 @@ _HTA (Textual Presentation) – Female Driver Performs Task 3_
 	
 	6. Park the car at the free parking lot
 
-Plan 0:
+	Plan 0:
 
-Do 1 - 2 - 3,
+		Do 1 - 2 - 3,
 
-If all parking lots are occupied, perform 4, then repeat 2 - 3.
+		If all parking lots are occupied, perform 4, then repeat 2 - 3.
 
-If after checking all lanes no space is found, do 5, then do 6 to park at the normal parking lot.
+		If after checking all lanes no space is found, do 5, then do 6 to park at the normal parking lot.
 
-If found a parking lot at the Ladies Parking area, do 6.
+		If found a parking lot at the Ladies Parking area, do 6.
 
-Plan 1:
+	Plan 1:
 
-Do any 1.1 or 1.2
+		Do any 1.1 or 1.2
 
-Plan 4:
+	Plan 4:
 
-Do 4.1. repeatedly until a parking lot is found.
+		Do 4.1. repeatedly until a parking lot is found.
 
 _HTA (Diagram Presentation) – Female Driver Performs Task 3_
 <p align="center">
@@ -658,11 +659,11 @@ https://app.diagrams.net/#G1qFrA9UIbTLxcWmda8nuJRQmjPM3UqJeo#%7B%22pageId%22%3A%
 
 ### Findings from the HTAs for Task 3 – “Find Available Parking in Ladies Parking”
 
-1. Information on HTA and Thinking Aloud Across the Three Personas
+_1. Information on HTA and Thinking Aloud Across the Three Personas_
    
 The Hierarchical Task Analysis (HTA) for finding available parking in the Ladies Parking area reveals a common high-level process across all female users: they drive to the designated zone, perform an initial assessment of space availability, then conduct a critical review to confirm the spot is not misused, and finally, they either park or initiate a new, prolonged search loop. Thinking-aloud observations clearly show that this task is dominated not by navigation, but by two external failures: the misuse of reserved spaces by ineligible male drivers and weak enforcement by facility staff. All users experienced prolonged and frustrating search loops when their intended area was found to be full or compromised, leading directly to wasted time and increased fuel consumption. The discovery of misuse significantly raises the users' cognitive and emotional load, replacing the simple act of parking with the stressful task of safety assessment. Users spent mental effort scrutinizing nearby vehicles and their occupants, indicating a profound lack of trust in the system’s security. This state of dissatisfaction and anxiety contradicts the fundamental purpose of the Ladies Parking facility.
 
-2. Differences Across the three personas
+_2. Differences Across the three personas_
 
 | Aspect                  | Lone Driver                                                                 | Elderly Driver                                                                                  | Female Driver                                                                                  |
 |-------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
@@ -672,156 +673,192 @@ The Hierarchical Task Analysis (HTA) for finding available parking in the Ladies
 | Overall Behaviour Style  | Confident, expects rules to be followed, quickly frustrated when they are not. | Vulnerable, easily distressed when security is compromised, high mental effort spent on risk assessment. | Safety-oriented, prioritizes reserved spots for peace of mind, views misuse as a breach of trust. |
 
 
-3. Conclusions from Comparing HTA Across the three Personas for Task 3
+_3. Conclusions from Comparing HTA Across the three Personas for Task 3_
 
 Comparing the HTAs for Task 3 reveals that the task's failure is rooted in security, equity, and trust, rather than physical navigation. The current parking system fails to deliver the promised value of a safer, reserved space because it cannot guarantee exclusivity. This failure creates a hazardous environment, especially for the vulnerable Elderly Female Driver, whose anxiety levels rise sharply when system integrity is compromised. For all users, the task shifts from finding a spot to assessing potential danger, making the environment actively unsupportive. The most critical finding is the urgent need for reliable, strict, and visible enforcement to address the root cause: ineligible usage. To make Task 3 efficient and secure, the key design intervention must be an Automated Enforcement System such as smart sensors or license plate recognition that guarantees only eligible drivers can use the reserved spots, thereby restoring the core elements of security and fairness.
 
+---
+
+### 3.0 Design requirements
+
+**Task 1-Find Available Parking Space**
+
+**Features/Processes to Keep:**
+
+1. Indicator lights (red/green)
+
+* Users rely heavily on visual cues from sensors to determine slot availability.
+
+* Keeping colour-coded indicators ensures users have quick, intuitive information about each slot.
+
+2. Lane and floor scanning
+
+* Iterative scanning is a natural behaviour; the system should allow users to check multiple lanes/floors efficiently.
+
+3. Reserved slot differentiation
+
+* Users need to distinguish reserved/disabled slots from regular slots.
+
+* Maintaining clear signs and indicators for special slots is important to prevent misuse.
+
+**New/Enhanced Features:**
+
+1. IoT-Based Real-Time Parking Availability
+* Each slot has a sensor (ultrasonic, motion, or smart camera) to detect occupancy.
+
+* Data is sent to a central cloud server and reflected in real-time on the app.
+
+* Reduces cognitive load, unnecessary scanning, and frustration.
+
+2. Interactive Mobile Application
+
+* Displays an interactive, color-coded map showing available, occupied, and ladies’ slots.
+
+* Slots are organized by floor and zone for easier navigation.
+
+3. GPS & Indoor Positioning
+
+* GPS provides initial location estimates for outdoor approach.
+
+* Bluetooth Beacons enable accurate indoor positioning, compensating for GPS instability in underground or enclosed areas.
+
+4. Augmented Reality (AR) Navigation
+
+* AR overlays directional arrows and distance markers on the live camera feed.
+
+* Guides users step-by-step to the selected parking slot.
+
+* Reduces search time and cognitive effort.
+
+**Task 2 - Find Parked Car**
+
+**Feature/Processes to Keep:**
+
+1. Location Saving Function:
+
+* Keep the basic ability for users to digitally save or log their parking location
+
+* Provides a necessary fallback and a starting point for navigation.
+
+2. Walking Navigation:
+
+* Maintain the core process of providing directional walking guidance from the user's current location to the saved car location.
+* Users are familiar with following on-screen digital maps and routes.
+
+**New/Enhanced Features:**
+
+1. Automatic Location Logging:
+
+* Implement automatic saving of the car's exact GPS coordinates, floor, and zone upon transaction confirmation, removing the need for error-prone manual user input.
+
+2. Indoor Positioning Technology:
+
+* Switch from unreliable conventional GPS to Bluetooth Beacons or Wi-Fi triangulation for accurate and precise indoor positioning.
+
+* Accurately determine the car's location down to the specific bay and floor.
+
+3. Augmented Reality (AR) Navigation:
+
+* Introduce an AR overlay on the live camera feed that displays clear directional arrows, distance markers, and visual cues.
+
+* Reduces search time and cognitive effort, offering a clear line of sight to the car.
+
+4. Simplified Interface & Voice Guidance:
+
+* Introduce a simplified "Find My Car" interface with large, clear buttons and supplementary voice guidance.
+
+5. Step-by-Step Directions:
+
+* Provide step-by-step guidance that incorporates changes in floor or zone, going beyond simple line routing to assist with orientation in complex structures.
+
+**Task 3 - Find Ladies' Parking**
+
+**Feature/Processes to Keep**
+
+1. Reserved Slot Differentiation:
+
+* The concept of a physically distinct and designated area which is pink for female drivers must be maintained.
+
+* This differentiation is key to providing the necessary sense of security and priority.
+
+2. Safety/Proximity Focus:
+
+* Keep the process of placing Ladies' Parking in high-traffic, well-lit areas near entrances or security points.
+
+* Supports the core purpose of minimizing risk and ensuring quick, safe access.
+
+**New/Enhanced Features**
+
+1. Biometric Access Barrier:
+
+* Implement a physical entry barrier system at the Ladies' Parking zone entry.
+
+* The barrier must execute a real-time facial scan of the driver for verification against a secure database.
+
+2. Secure Registration & Verification:
+
+* Introduce a mandatory in-app process for female drivers to register their identity by using IC and selfie verification to gain access eligibility.
+
+3. Instant Access Denial Feedback:
+
+* The barrier system must provide an immediate digital alert or audio message directing non-verified drivers to general parking to reduce conflict and increase enforcement.
+
+4. Real-Time Slot Availability:
+
+* Integrate IoT sensors in Ladies' Parking slots to detect occupancy and display the real-time available status on the ParkMate app map.
+
+5. Direct Navigation Guidance:
+
+* The app must offer turn-by-turn navigation specifically to an available and eligible Ladies' Parking slot once access is secured.
+
+* Slots must be clearly coded Pink on the app map for quick visual identification.
+
+### Functional Requirements (FR)
+
+| ID   | Requirement Description |
+|------|-------------------------|
+| FR1  | The system must display the real-time availability status (Vacant/Occupied) of every parking slot on an interactive map. |
+| FR2  | The map interface must use color-coding to differentiate slot types: Green (Vacant), Red (Occupied), Pink (Ladies’ Parking). |
+| FR3  | The user must be able to filter the parking map view by floor and/or zone. |
+| FR4  | The user must be able to select a vacant slot on the map and initiate turn-by-turn navigation directly to that spot. |
+| FR5  | The system must automatically log the car’s GPS coordinates, floor, and zone upon confirmation of the parking transaction. |
+| FR6  | The system must provide GPS-based walking navigation from the user’s current location to the logged car location. |
+| FR7  | The system must offer an Augmented Reality (AR) overlay that guides the user back to their car, displaying real-world directional cues. |
+| FR8  | The system must allow female drivers to register and verify their identity using their IC number (for gender check) and a live selfie (for AI verification). |
+| FR9  | The parking barrier system must execute a real-time facial scan of the driver and cross-check it against the secure database for access to the ladies' parking area. |
+| FR10 | The barrier system must provide a digital alert or audio message directing non-verified drivers (i.e., male drivers) to general parking upon denial. |
 
 
+## Non-Functional Requirements (NFR)
 
-3.0 Design requirements
-Task 1-Find Available Parking Space
-Features/Processes to Keep:
-Indicator lights (red/green)
-Users rely heavily on visual cues from sensors to determine slot availability.
-Keeping colour-coded indicators ensures users have quick, intuitive information about each slot.
-Lane and floor scanning
-Iterative scanning is a natural behaviour; the system should allow users to check multiple lanes/floors efficiently.
-Reserved slot differentiation
-Users need to distinguish reserved/disabled slots from regular slots.
-Maintaining clear signs and indicators for special slots is important to prevent misuse.
-New/Enhanced Features:
-IoT-Based Real-Time Parking Availability
-Each slot has a sensor (ultrasonic, motion, or smart camera) to detect occupancy.
-Data is sent to a central cloud server and reflected in real-time on the app.
-Reduces cognitive load, unnecessary scanning, and frustration.
-Interactive Mobile Application
-Displays an interactive, color-coded map showing available, occupied, and ladies’ slots.
-Slots are organized by floor and zone for easier navigation.
-GPS & Indoor Positioning
-GPS provides initial location estimates for outdoor approach.
-Bluetooth Beacons enable accurate indoor positioning, compensating for GPS instability in underground or enclosed areas.
+| ID   | Requirement Description |
+|------|-------------------------|
+| NFR1 | The map interface must prevent the user from selecting or navigating to an already occupied (Red) or unverified (Pink) parking spot. |
+| NFR2 | Upon successful logging of the car’s location, the app must provide an immediate, non-intrusive confirmation message showing the recorded location details. |
+| NFR3 | The availability status displayed on the map must update within 2 seconds of the central server receiving data from the IoT sensors. |
+| NFR4 | The Ladies’ Parking registration process must include a clear statement on how the IC number and facial data are securely stored and used only for access verification. |
 
+---
 
-Augmented Reality (AR) Navigation
-AR overlays directional arrows and distance markers on the live camera feed.
-Guides users step-by-step to the selected parking slot.
-Reduces search time and cognitive effort.
+## User Requirements
 
-Task 2 - Find Parked Car
-Feature/Processes to Keep:
- Location Saving Function:
-Keep the basic ability for users to digitally save or log their parking location
-Provides a necessary fallback and a starting point for navigation.
- Walking Navigation:
-Maintain the core process of providing directional walking guidance from the user's current location to the saved car location.
-Users are familiar with following on-screen digital maps and routes.
-New/Enhanced Features:
-Automatic Location Logging:
-Implement automatic saving of the car's exact GPS coordinates, floor, and zone upon transaction confirmation, removing the need for error-prone manual user input.
-Indoor Positioning Technology:
-Switch from unreliable conventional GPS to Bluetooth Beacons or Wi-Fi triangulation for accurate and precise indoor positioning.
-Accurately determine the car's location down to the specific bay and floor.
-Augmented Reality (AR) Navigation:
-Introduce an AR overlay on the live camera feed that displays clear directional arrows, distance markers, and visual cues.
-Reduces search time and cognitive effort, offering a clear line of sight to the car.
+| User Group                        | Characteristics |
+|----------------------------------|----------------|
+| Lone Driver                        | Lone drivers who focus on quick, efficient parking. |
+| Female Driver                      | Registered female drivers who prioritize security and convenience in designated spaces. |
+| Elderly Driver / Low Spatial Awareness | Individuals who may struggle with complex interfaces, small text, or spatial orientation in large car parks. |
+| Parking Facility Operator          | Staff responsible for monitoring the facility, ensuring smooth traffic flow, and managing the security of designated areas. |
 
+---
 
+## Environment Requirements
 
-Simplified Interface & Voice Guidance:
-Introduce a simplified "Find My Car" interface with large, clear buttons and supplementary voice guidance.
-Step-by-Step Directions:
-Provide step-by-step guidance that incorporates changes in floor or zone, going beyond simple line routing to assist with orientation in complex structures.
-Task 3 - Find Ladies' Parking
-Feature/Processes to Keep
- Reserved Slot Differentiation:
-The concept of a physically distinct and designated area which is pink for female drivers must be maintained.
-This differentiation is key to providing the necessary sense of security and priority.
-Safety/Proximity Focus:
-Keep the process of placing Ladies' Parking in high-traffic, well-lit areas near entrances or security points.
-Supports the core purpose of minimizing risk and ensuring quick, safe access.
-New/Enhanced Features
-Biometric Access Barrier:
-Implement a physical entry barrier system at the Ladies' Parking zone entry.
-The barrier must execute a real-time facial scan of the driver for verification against a secure database.
-Secure Registration & Verification:
-Introduce a mandatory in-app process for female drivers to register their identity by using IC and selfie verification to gain access eligibility.
+| Requirement Type           | Description                                                                                           | Design Implication |
+|----------------------------|-------------------------------------------------------------------------------------------------------|------------------|
+| Physical Environment (Indoor) | The application must function reliably within multi-level, covered parking structures where conventional GPS signal is weak or non-existent. | Requires reliance on indoor localization technologies (e.g., Bluetooth beacons when GPS is weak). |
+| Network & Connectivity      | Users must be able to use the app in areas with variable cellular and Wi-Fi coverage, especially in underground levels. | Core features like “Find My Car” AR navigation should minimize reliance on constant network connectivity once the initial location data is logged. |
+| Facial Recognition Station  | The Ladies’ parking barrier must operate reliably under varying conditions, including rain and low-light conditions. | Requires robust sensors and AI models capable of high accuracy despite environmental factors. |
+| Social & Legal Context      | The system must comply with all data privacy laws regarding the storage and use of sensitive biometric and identification data (IC number / selfie). | Essential for defining the scope of transparency and security/encryption. |
 
-
-
-
-Instant Access Denial Feedback:
-The barrier system must provide an immediate digital alert or audio message directing non-verified drivers to general parking to reduce conflict and increase enforcement.
-Real-Time Slot Availability:
-Integrate IoT sensors in Ladies' Parking slots to detect occupancy and display the real-time available status on the ParkMate app map.
-Direct Navigation Guidance:
-The app must offer turn-by-turn navigation specifically to an available and eligible Ladies' Parking slot once access is secured.
-Slots must be clearly coded Pink on the app map for quick visual identification.
-Functional Requirements(FR)
-FR1
-The system must display the real-time availability status(Vacant/Occupied) of every parking slot on an interactive map
-FR2
-The map interface must use color-coding to differentiate slot types: Green(Vacant), Red(Occupied), Pink(Ladies’ Parking)
-FR3
-The user must be able to filter the parking map view by floor and/or zone
-FR4
-The user must be able to select a vacant slot on the map and initiate turn-by-turn navigation directly to that spot.
-FR5
-The system must automatically log the car’s GPS coordinates, floor, and zone upon confirmation of the parking transaction
-FR6
-The system must provide GPS-based walking navigation from the user’s current location to the logged car location
-FR7
-The system must offer an Augmented Reality (AR) overlay that guides the user back to their car, displaying real-world directional cues.
-FR8
-The system must allow female drivers to register and verify their identity using their IC number (for gender check) and a live selfie (for AI verification).
-FR9
-The parking barrier system must execute a real-time facial scan of the driver and cross-check it against the secure database for access to the ladies' parking area.
-FR10
-The barrier system must provide a digital alert or audio message directing non-verified drivers (i.e., male drivers) to general parking upon denial.
-
-Non-Functional Requirement(NFR)
-NFR1
-The map interface must prevent the user from selecting or navigating to an already occupied(Red) or unverified(Pink) parking spot
-NFR2
-Upon successful logging of the car’s location, the app must provide an immediate, non-intrusive confirmation message showing the recorded location details
-NFR3
-The availability status displayed on the map must update within 2 seconds of the central server receiving data from the IoT sensors
-NFR4
-The Ladies’ Parking registration process must include a clear statement on how the IC number and facial data are securely stored and used only for access verification
-
-
-User Requirements
-
-User Group
-Characteristics
-Lone Driver
-Lone drivers who focused on quick efficient parking.
-Female Driver
-Registered female drivers who prioritize security and convenience in designated spaces
-Elderly Driver/ Low Spatial Awareness
-Individuals who may struggle with complex interfaces, small text, or spatial orientation in large car parks
-Parking Facility Operator
-Staff responsible for monitoring the facility, ensuring smooth traffic flow, and managing the security of designated areas
-
-
-
-Environment Requirements
-
-Requirement Type
-Description
-Design Implication
-Physical Environment
-(Indoor)
-The application must function reliably within multi-level, covered parking structures where conventional GPS signal is weak or non-existent
-Requires reliance on indoor localization technologies. We uses Bluetooth beacons, when the GPS is not strong enough
-Network & Connectivity
-Users must be able to use the app in areas with variable cellular and Wi-Fi coverage especially in underground levels
-Core features like “Find My Car” AR navigation should minimize reliance on constant network connectivity once the initial location data is logged
-Facial Recognition Station
-The Ladies’ parking barrier must operate reliably under varying conditions, including raining and low-light conditions
-Requires robust sensors and AI models capable of high accuracy despite environmental factors
-Social & Legal Context
-The system must comply with all data privacy laws regarding the storage and use of sensitive biometric and identification data (IC number / selfie)
-Essential for defining the scope of transparency and security/encryption
 
 
