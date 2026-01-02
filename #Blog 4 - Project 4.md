@@ -20,9 +20,9 @@ Chan Siew Ching was in charge of testing elderly driver’s user group, Chia Thu
 
 The prototype provides a clear Home Screen, allowing users to initiate their parking-related tasks without prior system knowledge. The Home Screen functions as the main navigation hub, presenting essential features in a simple and intuitive layout.
 The interaction flow is designed to support three core user tasks:
-1. Find Parking – enabling users to locate available parking spaces efficiently.
-2. Find My Car – assisting users in navigating back to their parked vehicle.
-3. Ladies Parking – providing access to designated parking spaces tailored for female users.
+* Find Parking – enabling users to locate available parking spaces efficiently.
+* Find My Car – assisting users in navigating back to their parked vehicle.
+* Ladies Parking – providing access to designated parking spaces tailored for female users.
 
 A persistent bottom navigation bar (Home, Notifications, Profile, Wallet, Settings) is included to ensure consistent and easy navigation throughout the system.
 
@@ -36,9 +36,18 @@ A persistent bottom navigation bar (Home, Notifications, Profile, Wallet, Settin
 Interaction Flow:
 
 Home Page (Find Parking) → Indoor Parking Map → Select Floor and Parking Zone → Search for Available Parking Spaces
+
+
+
+
+
+
+
+
 Display Parking Slot:
 
 <img width="601" height="400" alt="Image" src="https://github.com/user-attachments/assets/32f797a8-ecc3-4878-8f40-f8fc0edcc4ea" />
+
 
 
 
@@ -46,6 +55,8 @@ Interaction Flow:
 
 Display Colour-coded Parking Slot Map → Select Empty Parking Slot → Success Message Displayed (“ You have selected Floor _ , Zone _ , Slot _ ”)
 If a selected slot is occupied (red) → Error message displayed → Prompt user to choose again
+
+
 
 
 AR Navigation to Selected Parking Slot:
@@ -72,8 +83,8 @@ Home Page (Find My Car) → Auto Retrieve Car Location → User chooses to locat
 Flow 2: Payment
 
 Select Parking Slot Payment → Choose Payment Method → Payment Confirmation →
-1. Success Message
-2. Error Message → Prompt User to Retry
+* Success Message
+* Error Message → Prompt User to Retry
 
 <img width="707" height="362" alt="Image" src="https://github.com/user-attachments/assets/c3cd8432-9ad9-4e1c-a183-594128dc2c30" />
 
@@ -104,8 +115,8 @@ Navigate to Ladies Parking → Request AR Camera Access → Start AR Navigation
 Flow 3: Barrier Authentication
 
 Arrived at Ladies Parking → Request Face Scan at Barrier →
-1. Success Message → Proceed to Select Parking Slot
-2. Failed Message → Retry (up to 3 attempts) → More than 3 attempts → Redirect to General Parking
+* Success Message → Proceed to Select Parking Slot
+* Failed Message → Retry (up to 3 attempts) → More than 3 attempts → Redirect to General Parking
 
 <img width="720" height="369" alt="Image" src="https://github.com/user-attachments/assets/309b599b-5074-404e-8e63-d46dbf2be003" />
 
@@ -130,9 +141,9 @@ Today, you are going to try out ParkMate - an indoor smart parking and navigatio
 Without being informed about available parking spaces, drivers in many indoor parking facilities usually enter and spend time driving around to find a free space. Furthermore, after shopping, some drivers forget the exact spot where they parked their cars, especially in cases of weak GPS signals indoors. Another problem is the misuse of ladies' parking areas which lowers the safety and comfort of female drivers.
 
 ParkMate aims to solve these problems by:
-1. Giving users timely updates on available parking slots
-2. Locating your car after the shopping trip
-3. Making ladies' parking charge safe and fair
+* Giving users timely updates on available parking slots
+* Locating your car after the shopping trip
+* Making ladies' parking charge safe and fair
 
 
 Conceptually, the system utilizes such technologies as sensors, indoor positioning, and navigation support to enhance the parking experience. This testing session is not a test of you but a test of the application design. There are no right or wrong answers.
@@ -188,11 +199,11 @@ Task 3 - Ladies Parking
 The user follows the navigation guidance and drives toward the ladies’ parking zone while watching the distance indicator decrease as she gets closer. When she arrives at the entrance, she understands that she must scan her face at the barrier. She scans her face and sees a green tick, which tells her that access is granted. After entering, she uses the app to look for an available ladies’ parking slot, and parks her car successfully.
 
 Post-Task Interview Highlights
-The interface is clear, simple, and easy for the user to understand at a glance.
-Find it helpful for locating a parking space compared to traditional parking methods.
-The user feels secure using face recognition that is linked to her personal profile.
-The colors and icons are intuitive and straightforward, making navigation easier.
-The distance indicator is helpful to detect how close the selected parking location is.
+* The interface is clear, simple, and easy for the user to understand at a glance.
+* Find it helpful for locating a parking space compared to traditional parking methods.
+* The user feels secure using face recognition that is linked to her personal profile.
+* The colors and icons are intuitive and straightforward, making navigation easier.
+* The distance indicator is helpful to detect how close the selected parking location is.
 
 ### 5.2 Female Driver– Prepared by Chia Thung Thung
 Interview Video: https://drive.google.com/file/d/1Sf9tCAQY6aDjPDdRIMboKuetl-1vx9gU/view?usp=drive_link
@@ -210,10 +221,10 @@ Task 3 – Find Ladies’ Parking
 User 2 successfully navigated to the Ladies’ Parking section. She understood the face verification requirement and proceeded confidently. The green checkmark after successful verification was immediately recognized as “access granted.” She mentioned that the process felt secure and well-integrated. 
 
 Post-Task Interview Highlights
-Found the interface visually clear and consistent.
-Liked the use of pink for Ladies’ Parking, which felt intuitive and gender-inclusive.
-Expressed trust in the facial recognition system for security.
-Suggested that voice guidance during AR navigation could be helpful for hands-free use.
+* Found the interface visually clear and consistent.
+* Liked the use of pink for Ladies’ Parking, which felt intuitive and gender-inclusive.
+* Expressed trust in the facial recognition system for security.
+* Suggested that voice guidance during AR navigation could be helpful for hands-free use.
 
 ### 5.3 Lone Driver- Prepared by Wong Ya Jing
 Interview Video: 
@@ -233,10 +244,10 @@ Task 3 - Find Ladies’ Parking
 The user successfully navigated to the Ladies’ Parking feature. The user understands the needs of uploading a selfie and Identification Card for verification. The user is aware that she enters the Ladies’ Parking page when the interface changes to Pink. The user is able to find a parking spot easily in the Ladies’ Parking Zone.
 
 Post-Task Interview Highlight
-Use of pins, symbols, and color codes was intuitive and easy to understand
-The apps save time as it helps locate parking slots and cars easily.
-Facial recognition verification made the parking experience feel more secure
-AR navigation was very helpful as it showed real-time images, so it's easy to recognize landmarks along the way
+* Use of pins, symbols, and color codes was intuitive and easy to understand
+* The apps save time as it helps locate parking slots and cars easily.
+* Facial recognition verification made the parking experience feel more secure
+* AR navigation was very helpful as it showed real-time images, so it's easy to recognize landmarks along the way
 
 ## 6.0 Findings
 ### 6.1 Elderly Driver - Prepared by Yeoh Huey Ting
@@ -247,11 +258,11 @@ Although her experience was largely positive, a few small adjustments could make
 
 
 Positive Findings:
-Color-coded parking maps allowed quick understanding of parking status.
-Step-by-step guidance clearly indicated what to press next.
-Find My Car confirmation reduced uncertainty and increased user confidence.
-Distance indicators and AR real-time feedback helped the user gauge progress and navigate effectively.
-The consistent interface and visual cues made moving between tasks smooth and reassuring.
+* Color-coded parking maps allowed quick understanding of parking status.
+* Step-by-step guidance clearly indicated what to press next.
+* Find My Car confirmation reduced uncertainty and increased user confidence.
+* Distance indicators and AR real-time feedback helped the user gauge progress and navigate effectively.
+* The consistent interface and visual cues made moving between tasks smooth and reassuring.
 
 ### 6.2 Female Driver - Prepared by Chia Thung Thung
 Usability Problems Identified:
@@ -260,17 +271,18 @@ While the overall experience was rated highly, a few thoughtful refinements coul
 
 
 Positive Findings:
-Color coding (green/red/pink) was universally understood.
-AR navigation was considered intuitive and helpful.
-Face verification enhanced perceived security.
-The interface was consistent and easy to learn.
+* Color coding (green/red/pink) was universally understood.
+* AR navigation was considered intuitive and helpful.
+* Face verification enhanced perceived security.
+* The interface was consistent and easy to learn.
 
 ### 6.3 Lone Driver – Prepared by Ung Yii Jia
 Usability Issues Identified:
 User 3's usability testing with ParkMate showed that the user had a predominantly positive reaction which suggests that the main functions of ParkMate are quite straightforward and with only a few usability problems. The parking availability feature was extremely comprehensible, since the green and red boxes gave the user the immediate and unambiguous understanding of the availability of parking and the labels merely confirmed the understanding. AR navigation to your car was a big success as well, the directions were very clear and the user received additional information of distance and was given the opportunity to use real life references so that the feeling of being lost never came. Moreover, the facial recognition security check for ladies' parking was not only a necessary security feature but also strengthened user’s trust. A smooth run of the application with the consistent use of icons, symbols, and navigation layout further resulted in a straightforward and less time-consuming experience.
 Despite the overall high usability, a small opportunity for improvement was identified in the process of locating available parking, as reflected by the 4/5 ease-of-use rating. In larger parking areas, users may still spend a short amount of time scanning the map to identify the most suitable parking spot. This could be improved by adding a brief availability summary by level or zone, or by slightly enhancing the visual emphasis on nearby available spaces. These minor refinements would further reduce user effort and improve efficiency, strengthening ParkMate’s already effective and user-centered design.
+
 Positive Findings:
-Parking availability indicators were clear and easy to understand.
-AR navigation provided accurate, stress-free guidance.
-Facial recognition increased perceived security and trust.
-Icons, labels, and overall interface design were intuitive and consistent.
+* Parking availability indicators were clear and easy to understand.
+* AR navigation provided accurate, stress-free guidance.
+* Facial recognition increased perceived security and trust.
+* Icons, labels, and overall interface design were intuitive and consistent.
